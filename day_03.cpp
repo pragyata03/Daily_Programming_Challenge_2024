@@ -2,7 +2,7 @@
 using namespace std;
 
 //Function for repeating number
-int repeating_number(int n, int arr[])
+int duplicate_number(int n, int arr[])
 {
     for (int i = 0; i < n; i++) {
         int j;
@@ -19,6 +19,6 @@ int main()
 {
     int arr[] = {3, 1, 3, 4, 2};
     int n = sizeof(arr) / sizeof(int);
-    cout << "The number in the array that is getting repeated: "<< endl<<repeating_number(arr, n);
+    cout << "The number in the array that is getting repeated: "<< endl<< duplicate_number(arr, n);
     return 0;
 }
