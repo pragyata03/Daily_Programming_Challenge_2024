@@ -19,6 +19,6 @@ int main()
 {
     int arr[] = {3, 1, 3, 4, 2};
     int n = sizeof(arr) / sizeof(int);
-    cout << "The number in the array that is getting repeated: "<< endl<< duplicate_number(arr, n);
+    cout << "The number in the array that is getting repeated: "<< endl<< duplicate_number(n, arr);
     return 0;
 }
